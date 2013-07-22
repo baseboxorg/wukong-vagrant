@@ -20,7 +20,7 @@ apt-get -y install libevent-dev
 apt-get -y install python-pip
 apt-get -y install ant
 pip install gevent
-pip install tornado
+pip install -I tornado==2.4.1
 pip install simplejson
 pip install pyserial
 pip install configobj
