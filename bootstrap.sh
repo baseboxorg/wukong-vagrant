@@ -4,6 +4,7 @@ apt-get update
 # most essential tools
 apt-get -y install zsh
 apt-get -y install git-core
+apt-get -y install build-essential checkinstall
 apt-get -y install vim
 apt-get -y install tmux
 
@@ -18,8 +19,11 @@ chsh -s $(which zsh) vagrant
 apt-get -y install python-dev
 apt-get -y install libevent-dev
 apt-get -y install python-pip
-apt-get -y install ant
+apt-get -y install openjdk-7-jdk ant
+apt-get -y install avrdude gcc-avr avr-libc binutils-avr
+apt-get -y install arduino
 pip install gevent
+pip install greenet
 pip install -I tornado==2.4.1
 pip install simplejson
 pip install pyserial
